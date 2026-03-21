@@ -15,7 +15,6 @@ We are a digital agency specializing in web development and content management s
 - [Content Audit](https://github.com/xima-media/xima-typo3-content-audit): Dashboard widget to keep content relevant and up to date.
 - [Recent Updates](https://github.com/xima-media/xima-typo3-recent-updates): Dashboard widget to display recently updated elements.
 - [Dashboard News](https://github.com/xima-media/xima-typo3-dashboard-news): Display important messages and announcements in the TYPO3 dashboard.
-- [Internal News](https://github.com/xima-media/xima-typo3-internal-news): Internal news system with custom access and notification capabilities for the backend.
 - [Recordlist](https://github.com/xima-media/xima-typo3-recordlist): Quickly create backend modules for advanced record listing.
 
 #### Frontend & Editing
@@ -30,10 +29,8 @@ We are a digital agency specializing in web development and content management s
 - [Goaccess](https://github.com/xima-media/xm-goaccess): Integrates goaccess.io metrics into the backend dashboard.
 - [Formcycle](https://github.com/xima-media/xm_formcycle): Include your Formcycle forms in TYPO3.
 - [t3api Cache](https://github.com/xima-media/t3api_cache): Cache the API response of t3api.
-- [Toolbox](https://github.com/xima-media/xima-typo3-toolbox): Several tools for integrators and developers.
 
 ### 🛠️ Deployment & DevOps
 
-- [Deployer Tools](https://github.com/xima-media/xima-deployer-tools): Multiple deployer recipes for an improved deployment process and workflow.
 - [Deployer Extended TYPO3](https://github.com/xima-media/xima-deployer-extended-typo3): Common deployer configuration for TYPO3 projects.
-- [TYPO3 Docker](https://github.com/xima-media/typo3-docker): Docker setup for TYPO3 projects.
+- [TYPO3 Docker](https://github.com/xima-media/typo3-docker): Docker images for TYPO3 development.
