@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/xima-media/.github/raw/main/profile/assets/banner-dark.svg">
-  <img alt="Open source for TYPO3. Extensions, tooling and core patches from XIMA in Dresden." src="https://github.com/xima-media/.github/raw/main/profile/assets/banner-light.svg" width="100%">
+  <img alt="Open source for TYPO3. Extensions and tooling from XIMA in Dresden." src="https://github.com/xima-media/.github/raw/main/profile/assets/banner-light.svg" width="100%">
 </picture>
 
 <br>
@@ -9,7 +9,7 @@ Most of the websites we build for the public sector run on TYPO3. When a project
 
 This page is the index.
 
-[Showcase](#showcase) · [Every extension](#every-extension) · [Deployment](#deployment-and-infrastructure) · [Beyond our own repos](#beyond-our-own-repos) · [xima.de](https://www.xima.de/)
+[Showcase](#showcase) · [Every extension](#every-extension) · [Deployment](#deployment-and-infrastructure) · [xima.de](https://www.xima.de/)
 
 ## Showcase
 
@@ -36,10 +36,10 @@ Responsive image maps. Draw areas on an image in the backend and attach text, li
 Statuses, assignees and comments on pages and records. Built for relaunches where hundreds of pages move at once.
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/xima-media/xima-typo3-mailcatcher"><img src="https://github.com/xima-media/.github/raw/main/profile/assets/showcase/mailcatcher.jpg" alt="Mailcatcher backend module listing sent mails"></a>
+<a href="https://github.com/maikschneider/tca-api"><img src="https://github.com/xima-media/.github/raw/main/profile/assets/showcase/tca-api.jpg" alt="TCA API configuration in the TYPO3 backend"></a>
 <br><br>
-<b><a href="https://github.com/xima-media/xima-typo3-mailcatcher">Mailcatcher</a></b><br>
-Every mail TYPO3 sends on a dev or test system, readable in a backend module instead of a separate mail tool.
+<b><a href="https://github.com/maikschneider/tca-api">TCA API</a></b><br>
+A REST API from a PHP array. Name a table and get filtering, pagination, access control and an OpenAPI spec, without writing a controller.
 </td>
 </tr>
 <tr>
@@ -71,10 +71,8 @@ Grouped by who uses them. Downloads are Packagist totals as of October 2026.
 | [Editor Manual](https://github.com/xima-media/xima-typo3-manual) | Write the editor manual as a page tree, right in the backend | 12 · 13 | 23.8k |
 | [Internal News](https://github.com/xima-media/xima-typo3-internal-news) | Backend news with access rules and notifications for editorial teams | 13 · 14 | 2.4k |
 | [Dashboard News](https://github.com/xima-media/xima-typo3-dashboard-news) | Announcements for editors as a dashboard widget | 12 – 14 | 7.1k |
-| [Content Audit](https://github.com/xima-media/xima-typo3-content-audit) | Dashboard widget that surfaces outdated content | 12 – 14 | 7.6k |
 | [Recent Updates](https://github.com/xima-media/xima-typo3-recent-updates) | Dashboard widget listing recently changed records | 11 – 13 | 5.7k |
 | [Calendar](https://github.com/xima-media/xima-typo3-calendar) | Events and appointments with an editorial workflow and iCal feed | 13 | new |
-| [Page Subscription](https://github.com/xima-media/xima-typo3-page-subscription) | Frontend users subscribe to changes on a page | 12 · 13 | in development |
 
 ### Images, forms and content elements
 
@@ -87,17 +85,15 @@ Grouped by who uses them. Downloads are Packagist totals as of October 2026.
 | [Static Template](https://github.com/maikschneider/bw_static_template) | Content element that renders a Fluid template with JSON data | 13 · 14 | 42.6k |
 | [Formcycle](https://github.com/xima-media/xm_formcycle) | Embed Formcycle forms in TYPO3 pages | 13 | 10.3k |
 
-### APIs, headless and authentication
+### APIs and authentication
 
 | Extension | What it does | TYPO3 | Downloads |
 |:--|:--|:--|--:|
 | [TCA API](https://github.com/maikschneider/tca-api) | REST API derived from TCA, served as Hydra JSON-LD | 13 · 14 | 3.3k |
-| [Headless Pages](https://github.com/maikschneider/headless-pages) | Editor-built pages as a framework-agnostic JSON contract | 13 · 14 | alpha |
 | [API Key](https://github.com/maikschneider/api-key) | Stateless API key authentication | 13 · 14 | new |
 | [OAuth2 Extended](https://github.com/xima-media/xima-oauth2-extended) | Extra OAuth2 providers with on-the-fly user creation | 12 · 13 | 37.7k |
 | [t3api Cache](https://github.com/xima-media/t3api_cache) | Response cache for t3api endpoints | — | 9.7k |
 | [Twitter/X Client](https://github.com/xima-media/xima-typo3-twitter-client) | Fetch and display posts from X accounts | 13 · 14 | 6.4k |
-| [ke_search Remote](https://github.com/xima-media/xm-kesearch-remote) | ke_search indexer that crawls remote sites via their sitemap | 11 | — |
 
 ### For integrators and developers
 
@@ -109,8 +105,6 @@ Grouped by who uses them. Downloads are Packagist totals as of October 2026.
 | [Solr Shield](https://github.com/maikschneider/solr-shield) | Keeps bots and junk traffic away from Solr | 13 · 14 | new |
 | [Category Tree](https://github.com/maikschneider/category-tree) | Reusable category tree navigation for backend modules | 13 · 14 | 1.0k |
 | [Login Color Scheme](https://github.com/maikschneider/login-color-scheme) | Dark mode variant for the backend login image | 13 · 14 | 0.6k |
-| [Toolbox](https://github.com/xima-media/xima-typo3-toolbox) | Version, context and update hints in backend and frontend | 12 · 13 | 6.3k |
-| [GoAccess](https://github.com/xima-media/xm-goaccess) | goaccess.io traffic metrics on the dashboard | 11 · 12 | 10.0k |
 | [Metadata Fixer](https://github.com/xima-media/xima-typo3-metadata-fixer) | Repairs missing or broken `sys_file_metadata` records | 12 · 13 | 5.8k |
 
 ## Deployment and infrastructure
@@ -120,19 +114,9 @@ The tooling every one of our TYPO3 projects ships with.
 | Project | What it does | Downloads |
 |:--|:--|--:|
 | [Deployer Extended TYPO3](https://github.com/xima-media/xima-deployer-extended-typo3) | Shared Deployer configuration for TYPO3 projects | 37.8k |
-| [Deployer Tools](https://github.com/xima-media/xima-deployer-tools) | Composable Deployer recipes, including feature branch deployments | 9.9k |
 | [GitLab Templates](https://github.com/xima-media/gitlab-templates) | Reusable GitLab CI jobs for building, testing and deploying | — |
-| [Reusable Workflows](https://github.com/maikschneider/reusable-workflows) | GitHub Actions that test and release TYPO3 extensions to the TER | — |
 | [TYPO3 Docker](https://github.com/xima-media/typo3-docker) | PHP and Composer images with pinned versions | — |
 | [ddep](https://github.com/xima-media/ddep) | Pull databases and media from remote Docker environments over SSH | — |
-
-## Beyond our own repos
-
-**TYPO3 core.** We send patches through [Gerrit](https://review.typo3.org/) and join the coding nights to work through [Forge](https://forge.typo3.org/) issues.
-
-**[OAuth2 Client](https://github.com/xima-media/typo3-oauth2-client).** We contribute to `oauth2_client`, the generic OAuth2 login for frontend and backend, which has been downloaded 79k times.
-
-**[TYPO3 TypeScript Sources](https://github.com/maikschneider/typo3-typescript-sources).** The core's TypeScript, split out and published to npm, so extensions can type against the backend JavaScript API.
 
 <details>
 <summary><b>Older and archived work</b></summary>
@@ -140,6 +124,10 @@ The tooling every one of our TYPO3 projects ships with.
 
 | Project | What it does |
 |:--|:--|
+| [Content Audit](https://github.com/xima-media/xima-typo3-content-audit) | Dashboard widget that surfaces outdated content |
+| [Page Subscription](https://github.com/xima-media/xima-typo3-page-subscription) | Frontend users subscribe to changes on a page |
+| [Toolbox](https://github.com/xima-media/xima-typo3-toolbox) | Version, context and update hints in backend and frontend |
+| [GoAccess](https://github.com/xima-media/xm-goaccess) | goaccess.io traffic metrics on the dashboard |
 | [Guild](https://github.com/maikschneider/bw_guild) | Frontend user management with profiles and offers |
 | [Email](https://github.com/maikschneider/bw_email) | Send any record as a responsive email |
 | [Booking Manager](https://github.com/maikschneider/bw_bookingmanager) | Generic booking calendar for TYPO3 |
